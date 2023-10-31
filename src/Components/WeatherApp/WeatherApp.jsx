@@ -9,7 +9,7 @@ import wind_icon from '../Assets/wind.png'
 import humidity_icon from '../Assets/humidity.png'
 
 export const WeatherApp = () => {
-    let api_key = "f873766f09a10a9516bcde72b890d8f3"
+   
     const [wicon, setWicon] = useState(cloud_icon)
 
     const search = async () => {
