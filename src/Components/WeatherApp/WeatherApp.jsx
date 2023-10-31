@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import './WeatherApp.css'
 import search_icon from '../Assets/search.png'
@@ -9,7 +10,7 @@ import wind_icon from '../Assets/wind.png'
 import humidity_icon from '../Assets/humidity.png'
 
 export const WeatherApp = () => {
-    let api_key = "get free api key openweathermap"
+    let api_key = "get free api openweathermap"
     const [wicon, setWicon] = useState(cloud_icon)
 
     const search = async () => {
@@ -49,7 +50,10 @@ export const WeatherApp = () => {
     <div className='container'>
         <div className="top-bar">
             <input type="text" className="city-input" placeholder='Location'/>
-            <div className="search-icon" onClick={() => {search()}}>
+            <div 
+                className="search-icon" 
+                onClick={() => {search()}}
+            >
                 <img src={search_icon} alt="search icon" />
             </div>
         </div>

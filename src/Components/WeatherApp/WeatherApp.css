@@ -4,7 +4,7 @@
     margin: auto;
     padding-bottom: 60px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 50%);
 }
 
 .top-bar {
