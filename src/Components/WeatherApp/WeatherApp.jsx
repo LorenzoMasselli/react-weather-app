@@ -9,7 +9,7 @@ import wind_icon from '../Assets/wind.png'
 import humidity_icon from '../Assets/humidity.png'
 
 export const WeatherApp = () => {
-   
+    let api_key = "get free api key openweathermap"
     const [wicon, setWicon] = useState(cloud_icon)
 
     const search = async () => {
